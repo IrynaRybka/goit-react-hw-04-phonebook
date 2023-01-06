@@ -1,0 +1,18 @@
+.mark_name, .mark_number, input {
+    display: block;
+    margin-bottom: 10px;
+}
+.form_phonebook {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    padding: 20px 40px;
+    border: 1px black solid;
+}
+.form_phonebook:not(:last-child) {
+    margin-bottom: 10px;
+}
+.form_phonebook > button {
+    margin-left: 5px;
+}
