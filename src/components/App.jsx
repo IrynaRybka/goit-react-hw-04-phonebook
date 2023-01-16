@@ -55,7 +55,7 @@ export function App() {
       name: data.name,
       number: data.number,
     };
-    setContacts(prevState => [contact, ...prevState.contacts]);
+    setContacts(prevState => [contact, ...prevState]);
   };
 
   return (
